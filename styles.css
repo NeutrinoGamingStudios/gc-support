@@ -155,7 +155,6 @@ body::before {
 
 .steps-list {
     list-style: none;
-    counter-reset: step-counter;
     margin: 2rem 0;
     padding: 0;
 }
