@@ -1,65 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galactic Conquest Support</title>
-    <meta name="description" content="Support page for Galactic Conquest: Rise to Power game. Get help and find our privacy policy and terms of service.">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galactic Conquest: Faction War — Real-Time PvP Space Strategy MMO</title>
+    <meta name="description" content="Raid. Hack. Bomb. Rule the galaxy. Galactic Conquest: Faction War is a free real-time PvP space strategy MMO — build your empire, join a fleet, and fight real players for control. Download on iOS and Android." />
+    <meta name="theme-color" content="#04050d" />
+    <link rel="canonical" href="https://neutrinogamingstudios.github.io/gc-support/" />
+
+    <!-- Open Graph / social sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Galactic Conquest: Faction War" />
+    <meta property="og:description" content="Raid. Hack. Bomb. Rule the galaxy. A free real-time PvP space strategy MMO from Neutrino Gaming Studios." />
+    <meta property="og:site_name" content="Neutrino Gaming Studios" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2300ffd1'/%3E%3Cpath d='M16 5l2.7 7.6L26 14l-6 4.6L21.5 26 16 21.7 10.5 26 12 18.6 6 14l7.3-1.4z' fill='%23061018'/%3E%3C/svg%3E" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <h1>Galactic Conquest Support</h1>
-        <p class="subtitle">Your gateway to stellar customer service</p>
+    <!-- ===================== NAV ===================== -->
+    <nav class="nav" id="nav">
+      <div class="nav__inner">
+        <a href="index.html" class="brand" aria-label="Galactic Conquest: Faction War home">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l2.4 6.6L21 11l-5.4 3.9L17 22l-5-3.7L7 22l1.4-7.1L3 11l6.6-2.4z" fill="#061018"/></svg>
+          </span>
+          <span>Galactic<strong>Conquest</strong></span>
+        </a>
+
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#combat">Combat</a></li>
+          <li><a href="#factions">Factions</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+
+        <div class="nav__cta">
+          <a href="#download" class="btn btn-primary btn-sm">Play Free</a>
+          <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- ===================== HERO ===================== -->
+      <header class="hero">
+        <div class="container">
+          <div class="hero__grid">
+            <div class="hero__copy">
+              <span class="hero__badge"><span class="dot"></span> Free to play · Live PvP MMO · iOS &amp; Android</span>
+              <h1>Raid. Hack. Bomb. <span class="text-gradient">Rule the galaxy.</span></h1>
+              <p class="hero__lead">
+                <strong>Galactic Conquest: Faction War</strong> is a real-time PvP space strategy MMO.
+                Build your empire, join a fleet, and fight real players for control of the galaxy —
+                where every attack, alliance, and betrayal happens live.
+              </p>
+
+              <div class="hero__actions">
+                <div class="store-badges">
+                  <a class="store-badge" href="https://apps.apple.com/us/app/galactic-conquest-faction-war/id6446182320" aria-label="Download on the App Store">
+                    <svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M16.4 12.7c0-2 1.6-3 1.7-3.1-1-1.4-2.4-1.6-2.9-1.6-1.2-.1-2.4.7-3 .7-.6 0-1.6-.7-2.6-.7-1.3 0-2.6.8-3.3 2-1.4 2.5-.4 6.1 1 8.1.7 1 1.5 2.1 2.5 2 1-.04 1.4-.65 2.6-.65 1.2 0 1.6.65 2.6.63 1.1-.02 1.8-1 2.4-2 .8-1.1 1.1-2.2 1.1-2.3-.02-.01-2.1-.8-2.1-3.2zM14.6 6.3c.5-.7.9-1.6.8-2.5-.8.03-1.7.5-2.3 1.2-.5.6-.9 1.5-.8 2.4.9.07 1.8-.4 2.3-1.1z"/></svg>
+                    <span class="store-badge__text">
+                      <span class="store-badge__small">Download on the</span>
+                      <span class="store-badge__big">App Store</span>
+                    </span>
+                  </a>
+                  <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.neutrinogamingstudios.galacticconquest" aria-label="Get it on Google Play">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.2.2-.3.5-.3.9v17.6c0 .4.1.7.3.9l10-9.7-10-9.7z" fill="#00e0ff"/><path d="M17.5 8.9 5.4 1.9 14.9 11l2.6-2.1z" fill="#00ffb3"/><path d="M17.5 15.1 14.9 13l-9.5 9.1 12.1-7z" fill="#ff6b6b"/><path d="m20.7 11-3.2-1.8L14.9 12l2.6 2.1 3.2-1.8c.6-.4.6-1 0-1.3z" fill="#ffce54"/></svg>
+                    <span class="store-badge__text">
+                      <span class="store-badge__small">Get it on</span>
+                      <span class="store-badge__big">Google Play</span>
+                    </span>
+                  </a>
+                </div>
+
+                <div class="hero__rating">
+                  <span class="stars" aria-hidden="true">★★★★½</span>
+                  <span>Rated 4.5 / 5 on the App Store</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Phone mockup: a target locked for attack -->
+            <div class="hero__visual" aria-hidden="true">
+              <div class="phone">
+                <div class="phone__screen">
+                  <span class="phone__notch"></span>
+                  <div class="phone__title">TARGET · LOCKED</div>
+                  <div class="phone__planet"></div>
+                  <div class="phone__bars">
+                    <div class="phone__bar"><span class="chip"></span> Shield: DOWN · 0 HP</div>
+                    <div class="phone__bar"><span class="chip"></span> Raid troops ready</div>
+                    <div class="phone__bar phone__bar--cta">Launch Bomb Run</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </header>
 
-      <main class="content-card">
-        <section class="contact-section">
-          <p>If you're experiencing any issues, please contact us at:</p>
-          <div class="email-highlight">
-            <strong>Email:</strong> jredgar22@gmail.com
+      <!-- ===================== STATS ===================== -->
+      <section class="section section--tight">
+        <div class="container">
+          <div class="stats">
+            <div class="stat"><div class="stat__num text-gradient">3</div><div class="stat__label">Ways to attack</div></div>
+            <div class="stat"><div class="stat__num text-gradient">35</div><div class="stat__label">Stages per contract</div></div>
+            <div class="stat"><div class="stat__num text-gradient">2</div><div class="stat__label">Warring factions</div></div>
+            <div class="stat"><div class="stat__num text-gradient">24/7</div><div class="stat__label">Live PvP galaxy</div></div>
           </div>
-          <p>Thanks for testing our game!</p>
-        </section>
+        </div>
+      </section>
 
-        <section class="delete-account-section">
-          <h2>How to Delete Your Account</h2>
-          <p class="section-intro">If you wish to permanently remove your account and all associated data, follow these steps:</p>
-          <ol class="steps-list">
-            <li class="step-item">
-              <span class="step-number">1</span>
-              <div class="step-content">
-                <strong>Open Galactic Conquest</strong> and navigate to <strong>Settings</strong>
-              </div>
-            </li>
-            <li class="step-item">
-              <span class="step-number">2</span>
-              <div class="step-content">
-                <strong>Select Administration</strong> from the settings menu
-              </div>
-            </li>
-            <li class="step-item">
-              <span class="step-number">3</span>
-              <div class="step-content">
-                <strong>Choose "Delete Account"</strong> option
-              </div>
-            </li>
-          </ol>
-          <div class="warning-box">
-            <strong>⚠️ Important:</strong> This action will permanently delete your account and all stored data, including your email, password, and in-app purchase history. This action cannot be undone.
+      <!-- ===================== FEATURES ===================== -->
+      <section class="section" id="features">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Why play</span>
+            <h2 class="section-title">A galaxy of <span class="text-gradient">real rivals</span></h2>
+            <p class="section-subtitle">Every battle is against a real player who can fight back, retaliate, or rally their entire fleet against you.</p>
           </div>
-        </section>
 
-        <nav class="nav-links">
-          <a href="privacy-policy.html" class="nav-link">Read our Privacy Policy</a>
-          <a href="tou.html" class="nav-link">Read our Terms of Service</a>
-        </nav>
-      </main>
+          <div class="feature-grid">
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg></div>
+              <h3>Real-time PvP combat</h3>
+              <p>Three attack types, each with a role: <strong>Raid</strong> to steal units, <strong>Hack</strong> to drop their shields, <strong>Bomb</strong> to wipe out population. Win by outplaying real commanders.</p>
+            </article>
 
-      <footer class="footer">
-        <p>&copy; 2025 Neutrino Gaming Studios. All rights reserved.</p>
-      </footer>
-    </div>
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+              <h3>Fleets that matter</h3>
+              <p>Join or create a fleet, donate to the Fleet Vault to unlock perks, and level up together. Coordinated fleets gain combat bonuses solo players simply can't match.</p>
+            </article>
+
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+              <h3>Multi-stage fleet contracts</h3>
+              <p>Cooperative missions with up to 35 stages and millions of HP. Coordinate attacks, manage troop regen, and split the rewards against defenses on a clock.</p>
+            </article>
+
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a15 15 0 0 0 0 18M12 3a15 15 0 0 1 0 18M3 12h18"/></svg></div>
+              <h3>NPC siege operations</h3>
+              <p>Four-phase assaults on Coalition fleets — cut their supply lines, breach shields, bomb the hull, then board. The deeper you push, the harder it gets and the bigger the payout.</p>
+            </article>
+
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg></div>
+              <h3>Build your empire</h3>
+              <p>Upgrade your Garrison, Penetration Lab, Bombing Bay, and Shield Generator. Specialize in offense or fortress play, equip gems, and charge your Ion Cannon for a guaranteed strike.</p>
+            </article>
+
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+              <h3>Live social features</h3>
+              <p>Real-time fleet chat, intergalactic chat, direct messages, wall posts, and a friends list. Coordinate strikes, trash-talk rivals, or just hang out between battles.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== COMBAT / SCREENS ===================== -->
+      <section class="section" id="combat">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">The combat loop</span>
+            <h2 class="section-title">Three ways to <span class="text-gradient">break a rival</span></h2>
+            <p class="section-subtitle">Each attack counters a different defense. Read your target, spend troops wisely, and strike before they rally.</p>
+          </div>
+
+          <div class="shots">
+            <div class="shot shot--a">
+              <span class="shot__tag">Step 1 · Raid</span>
+              <h4>Steal their units</h4>
+              <p>Send raid troops against their turrets to loot the units that fund your war machine.</p>
+            </div>
+            <div class="shot shot--b">
+              <span class="shot__tag">Step 2 · Hack</span>
+              <h4>Drop the shield</h4>
+              <p>Burn through their firewall with hacks until the shield hits zero and they're exposed.</p>
+            </div>
+            <div class="shot shot--c">
+              <span class="shot__tag">Step 3 · Bomb</span>
+              <h4>Wipe the population</h4>
+              <p>With the shield down, bombs tear through population — the heart of their total power.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== FACTIONS ===================== -->
+      <section class="section" id="factions">
+        <div class="container">
+          <div class="split">
+            <div class="split__media" aria-hidden="true">
+              <div class="mini-stat"><span class="mini-stat__num">⚔️</span><span class="mini-stat__txt"><strong>The Federation</strong> — order through overwhelming force.</span></div>
+              <div class="mini-stat"><span class="mini-stat__num">🏴‍☠️</span><span class="mini-stat__txt"><strong>The Outlaws</strong> — freedom taken by raid and ruin.</span></div>
+              <div class="mini-stat"><span class="mini-stat__num">🏆</span><span class="mini-stat__txt">Top the Faction Orders to be crowned <strong>Galactic Champion</strong>.</span></div>
+            </div>
+            <div class="split__copy">
+              <span class="eyebrow">Choose your side</span>
+              <h2 class="section-title">The Federation or <span class="text-gradient">The Outlaws</span></h2>
+              <p class="section-subtitle">
+                Pick a faction and fight for control of the galaxy. Faction Orders are recurring events where
+                every raid, hack, bomb, and contract earns points toward galaxy-wide rewards — and glory for your side.
+              </p>
+              <ul class="list-check">
+                <li>Persistent fleet wars tracked across the galaxy</li>
+                <li>EMP strikes, Medical Bay rescues, and powerful abilities</li>
+                <li>New contracts, events, and faction operations every month</li>
+                <li>Your account follows you across iOS and Android devices</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== FAQ TEASER ===================== -->
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">New commander?</span>
+            <h2 class="section-title">Start here</h2>
+            <p class="section-subtitle">A few of the most common questions — the full guide lives in our FAQ.</p>
+          </div>
+
+          <div class="faq">
+            <details class="faq__item">
+              <summary class="faq__q">Is Galactic Conquest free to play?</summary>
+              <p class="faq__a">Yes. It's free to download and play on iOS and Android. Optional in-app purchases (such as Federal Crystals and gems) are available, but you earn currency through raids, contracts, and daily challenges.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">How do I get started?</summary>
+              <p class="faq__a">Complete the Training Tracks in the Academy — they teach raiding, hacking, bombing, and fleet management. Then head to Intergalactic Chat and find a player-run fleet to join. A fleet behind you makes a huge difference.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">How does combat work?</summary>
+              <p class="faq__a">There are three attack types. <strong>Raid</strong> steals units (your raid power vs their turrets). <strong>Hack</strong> damages their shield (your hack power vs their firewall). Once the shield is down, <strong>Bomb</strong> destroys their population (your bomb power vs their bombing dome).</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">What is a fleet?</summary>
+              <p class="faq__a">A fleet is a group of players who work together — contribute units, earn fleet XP, and unlock shared assets like the Dyson Sphere and Medical Bay. After 5 consecutive days, a fleet becomes your home fleet and you can join its fleet wars.</p>
+            </details>
+          </div>
+
+          <div style="text-align:center;margin-top:2rem;">
+            <a href="faq.html" class="btn btn-ghost">Read the full FAQ →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== DOWNLOAD CTA ===================== -->
+      <section class="section" id="download">
+        <div class="container">
+          <div class="cta">
+            <h2>The galaxy is fighting right now</h2>
+            <p>Download Galactic Conquest: Faction War for free, pick your side, and start your rise to power today.</p>
+            <div class="store-badges">
+              <a class="store-badge" href="https://apps.apple.com/us/app/galactic-conquest-faction-war/id6446182320" aria-label="Download on the App Store">
+                <svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M16.4 12.7c0-2 1.6-3 1.7-3.1-1-1.4-2.4-1.6-2.9-1.6-1.2-.1-2.4.7-3 .7-.6 0-1.6-.7-2.6-.7-1.3 0-2.6.8-3.3 2-1.4 2.5-.4 6.1 1 8.1.7 1 1.5 2.1 2.5 2 1-.04 1.4-.65 2.6-.65 1.2 0 1.6.65 2.6.63 1.1-.02 1.8-1 2.4-2 .8-1.1 1.1-2.2 1.1-2.3-.02-.01-2.1-.8-2.1-3.2zM14.6 6.3c.5-.7.9-1.6.8-2.5-.8.03-1.7.5-2.3 1.2-.5.6-.9 1.5-.8 2.4.9.07 1.8-.4 2.3-1.1z"/></svg>
+                <span class="store-badge__text">
+                  <span class="store-badge__small">Download on the</span>
+                  <span class="store-badge__big">App Store</span>
+                </span>
+              </a>
+              <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.neutrinogamingstudios.galacticconquest" aria-label="Get it on Google Play">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.2.2-.3.5-.3.9v17.6c0 .4.1.7.3.9l10-9.7-10-9.7z" fill="#00e0ff"/><path d="M17.5 8.9 5.4 1.9 14.9 11l2.6-2.1z" fill="#00ffb3"/><path d="M17.5 15.1 14.9 13l-9.5 9.1 12.1-7z" fill="#ff6b6b"/><path d="m20.7 11-3.2-1.8L14.9 12l2.6 2.1 3.2-1.8c.6-.4.6-1 0-1.3z" fill="#ffce54"/></svg>
+                <span class="store-badge__text">
+                  <span class="store-badge__small">Get it on</span>
+                  <span class="store-badge__big">Google Play</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <a href="index.html" class="brand">
+              <span class="brand__mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l2.4 6.6L21 11l-5.4 3.9L17 22l-5-3.7L7 22l1.4-7.1L3 11l6.6-2.4z" fill="#061018"/></svg>
+              </span>
+              <span>Galactic<strong>Conquest</strong></span>
+            </a>
+            <p>Galactic Conquest: Faction War — a free real-time PvP space strategy MMO from Neutrino Gaming Studios.</p>
+          </div>
+
+          <div class="footer__col">
+            <h4>Game</h4>
+            <ul>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#combat">Combat</a></li>
+              <li><a href="#factions">Factions</a></li>
+              <li><a href="#download">Download</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__col">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="support.html">Help Center</a></li>
+              <li><a href="faq.html">Game FAQ</a></li>
+              <li><a href="support.html#delete-account">Delete Account</a></li>
+              <li><a href="mailto:jredgar22@gmail.com">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__col">
+            <h4>Community &amp; Legal</h4>
+            <ul>
+              <li><a href="https://discord.gg/gu7R5hp4" rel="noopener" target="_blank">Discord</a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="tou.html">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <span>&copy; 2025 Neutrino Gaming Studios. All rights reserved.</span>
+          <span>Raid. Hack. Bomb. Rule the galaxy. 🚀</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>
