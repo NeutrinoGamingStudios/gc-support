@@ -18,7 +18,7 @@
   },
   "releases": [
     {
-      "version": "1.43.4",
+      "version": "1.43.3",
       "date": "2026-07-17",
       "title": "What's New",
       "changes": [
@@ -41,28 +41,14 @@
         {
           "type": "fixed",
           "text": "Android push notifications are FIXED — attack alerts, DMs, and contract updates now reach Android devices. Check Settings → Notifications if you'd turned them off."
-        }
-      ]
-    },
-    {
-      "version": "1.43.3",
-      "date": "2026-07-17",
-      "title": "What's New",
-      "changes": [
-        {
-          "type": "improved",
-          "text": "Echo's tutorial window is much roomier — full messages at a glance, plus a clear \"scroll for more\" hint on the long ones. (You can still drag it out of the way.)"
-        }
-      ]
-    },
-    {
-      "version": "1.43.2",
-      "date": "2026-07-17",
-      "title": "What's New",
-      "changes": [
+        },
         {
           "type": "fixed",
           "text": "Android: chat input no longer hides behind the keyboard — typing and the send button stay visible in COMMS, Wall, DMs, and War chat."
+        },
+        {
+          "type": "improved",
+          "text": "Echo's tutorial window is much roomier — full messages at a glance, plus a clear \"scroll for more\" hint on the long ones. (You can still drag it out of the way.)"
         }
       ]
     },
