@@ -18,6 +18,33 @@
   },
   "releases": [
     {
+      "version": "1.43.4",
+      "date": "2026-07-17",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "new",
+          "text": "The BLACK TALON STRIKE WING has arrived — Deep Coalition's reprisal force after the fall of Terminus. Their elites are the toughest operatives yet, and they strike back at whoever hunts them. Watch your shields."
+        },
+        {
+          "type": "improved",
+          "text": "Faction Orders now reward the TOP 10 on each side (was top 3) — up to 10,000 Federal Crystals and 15 Colony Pods for 1st, with pods auto-deploying straight into population and power."
+        },
+        {
+          "type": "improved",
+          "text": "Operative Takedown payouts got a massive buff: way more units per damage, +20% Federal Crystals, and a 25-pod salvage pool raffled across contributors after every kill."
+        },
+        {
+          "type": "improved",
+          "text": "Your attacks hit NPC operatives harder — every winning raid, hack, and bomb now deals 2–3× the damage, so hunts move faster."
+        },
+        {
+          "type": "fixed",
+          "text": "Android push notifications are FIXED — attack alerts, DMs, and contract updates now reach Android devices. Check Settings → Notifications if you'd turned them off."
+        }
+      ]
+    },
+    {
       "version": "1.43.3",
       "date": "2026-07-17",
       "title": "What's New",
