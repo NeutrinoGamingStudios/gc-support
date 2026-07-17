@@ -1,0 +1,417 @@
+{
+  "change_types": {
+    "new": {
+      "label": "New",
+      "emoji": "✨",
+      "color": "#4FC3F7"
+    },
+    "improved": {
+      "label": "Improved",
+      "emoji": "⚡",
+      "color": "#FFD740"
+    },
+    "fixed": {
+      "label": "Fixed",
+      "emoji": "🛠️",
+      "color": "#81C784"
+    }
+  },
+  "releases": [
+    {
+      "version": "1.43.3",
+      "date": "2026-07-17",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Echo's tutorial window is much roomier — full messages at a glance, plus a clear \"scroll for more\" hint on the long ones. (You can still drag it out of the way.)"
+        }
+      ]
+    },
+    {
+      "version": "1.43.2",
+      "date": "2026-07-17",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Android: chat input no longer hides behind the keyboard — typing and the send button stay visible in COMMS, Wall, DMs, and War chat."
+        }
+      ]
+    },
+    {
+      "version": "1.43.1",
+      "date": "2026-07-16",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Android: typing in chat no longer leaves a big empty gap above the keyboard — COMMS, Wall, DMs, and War chat inputs now sit right on top of it."
+        },
+        {
+          "type": "fixed",
+          "text": "Android: chat inputs and lists no longer hide behind the system navigation bar."
+        },
+        {
+          "type": "improved",
+          "text": "Direct messages are now unmoderated — say \"lmao\", curse like a spacer, speak freely. Public channels keep their filters."
+        }
+      ]
+    },
+    {
+      "version": "1.43",
+      "date": "2026-07-15",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Auto-Unload no longer stalls when the Hack and Bomb bars fall first — leftover troops now spill over and finish the remaining bars, including Raid. No more wasted ammo!"
+        },
+        {
+          "type": "new",
+          "text": "Background music! Flip it on in Settings → Audio for an ambient soundtrack while you conquer. Off by default — your ears, your call."
+        }
+      ]
+    },
+    {
+      "version": "1.42",
+      "date": "2026-07-08",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Operative Takedown (PvP) contract cards no longer clip their target info at the bottom."
+        },
+        {
+          "type": "fixed",
+          "text": "Android: chat bubbles no longer cut off message timestamps."
+        },
+        {
+          "type": "fixed",
+          "text": "Traders Hall: once-per-week packs now leave the shelf the moment you buy them, so a quick second tap can no longer charge you twice."
+        },
+        {
+          "type": "fixed",
+          "text": "Android: the COMMS message bar no longer hides behind the system navigation buttons on any screen."
+        },
+        {
+          "type": "new",
+          "text": "Choose your alerts! Push notifications now have separate toggles for Battle Alerts, Contract Start & Finish, and Contract Phase Updates — find them in Settings."
+        },
+        {
+          "type": "new",
+          "text": "WAR tab in COMMS! While you're in a faction war, your war team chat sits right next to Galaxy, Fleet, and Armada — no more digging into the war room to talk tactics."
+        },
+        {
+          "type": "new",
+          "text": "Ten new name flairs by popular demand — sushi 🍣, a whole flock of birds 🦅🦜🦉🐧🐦, plus wolf, shark, octopus, and pizza. Style your name in Settings!"
+        },
+        {
+          "type": "new",
+          "text": "Vote your War MVP! After a faction war ends the results stay open, and for 30 minutes each team votes their own MVP — winner takes bonus crystals, War Pass points, and 24h War Hero status. No votes? Battle performance decides, as before."
+        },
+        {
+          "type": "new",
+          "text": "Monthly War Leaderboard! The new TOP 10 tab in Faction Games ranks the fiercest warriors of the month by total war score — with MVP stars, win counts, and your own rank. Resets every month."
+        },
+        {
+          "type": "improved",
+          "text": "Operative Takedown contracts now show how tough the target really is — Easy, Medium, Hard, or Very Hard — based on their actual defenses."
+        }
+      ]
+    },
+    {
+      "version": "1.41",
+      "date": "2026-07-07",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Fleet Dailies! Four daily objectives your whole fleet completes together — log in, donate, talk, and spend. Finish all four and the fleet unlocks Operation Daybreak, an exclusive T6 contract at 150% plunder. A perfect Sunday–Friday week unlocks a massive 20-stage Overdrive campaign on Saturday. Find it on your Fleet screen!"
+        },
+        {
+          "type": "new",
+          "text": "Gift a Battle Pass! Visit any commander's profile and tap 🎁 Gift Pass to buy them the current Battle Pass — perfect for fleetmates who carried the last war."
+        },
+        {
+          "type": "improved",
+          "text": "Fleet XP donations are now announced in fleet chat, so the whole crew sees who keeps the war chest full."
+        },
+        {
+          "type": "improved",
+          "text": "Contracts earned through Fleet Dailies show a gold EARNED badge with exactly how long you have left to start them."
+        }
+      ]
+    },
+    {
+      "version": "1.40",
+      "date": "2026-07-04",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Commendations! Your achievements finally have a home — tap 🏅 on your profile to see your medal wall: 50 commander commendations with live progress bars, plus 18 fleet commendations your whole crew earns together."
+        },
+        {
+          "type": "new",
+          "text": "Your Lands now sharpen your offense! Land attack power boosts contract damage (all attack types), raid plunder, and bomb damage — up to +30% with a fully built all-attack building."
+        },
+        {
+          "type": "fixed",
+          "text": "Maxed-out buildings can enter their Lands again — the ENTER button now appears on max-level Garrisons, Penetration Teams, and Bombing Bays."
+        },
+        {
+          "type": "fixed",
+          "text": "Android: chat no longer cuts off the newest message at the bottom of the screen."
+        }
+      ]
+    },
+    {
+      "version": "1.39",
+      "date": "2026-07-01",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Lands! Tap “Manage Lands” inside your Garrison, Penetration Team, or Bombing Bay to step into a living interior scene — your plots laid out on the hangar floor, structures that visibly grow as they level up, and droids working in the background."
+        },
+        {
+          "type": "new",
+          "text": "Unlock 5 new lands every 5 building levels, then choose each structure’s style: Attack (2/3 of its power counts when YOU attack), Defense (2/3 when you’re defending), or Balanced (an even split)."
+        },
+        {
+          "type": "new",
+          "text": "Tap any built structure to inspect it — see its power, attack/defense split, and upgrade it right from the scene."
+        },
+        {
+          "type": "improved",
+          "text": "Land structures add to your total power and feed into raids, hacks, and bombs — against both players and NPC fleets."
+        },
+        {
+          "type": "improved",
+          "text": "Profiles got a glow-up: a faction-themed header, your buildings’ interiors behind Combat Forces, and clear Attack / Defense numbers for every building — land power included."
+        },
+        {
+          "type": "improved",
+          "text": "War Pass: Faction Games wars now award 50 points for fighting and 100 for winning — the seasonal skin is genuinely within reach."
+        },
+        {
+          "type": "improved",
+          "text": "Fleets and Home Fleets can now have up to 5 Admirals, up from 3."
+        },
+        {
+          "type": "new",
+          "text": "Echo now spreads the news: team war signups hit galaxy chat, and promotions get announced in your fleet’s chat."
+        }
+      ]
+    },
+    {
+      "version": "1.38",
+      "date": "2026-06-30",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Armada overhaul: your lead fleet now has the Armada chat too, the Armada screen shows your whole family (helm + member fleets) at a glance, and you can invite fleets right from the screen."
+        },
+        {
+          "type": "new",
+          "text": "You can now turn Armada chat on or off in Settings → Preferences."
+        },
+        {
+          "type": "improved",
+          "text": "Chat reactions now appear the instant you tap them, instead of waiting on the server."
+        },
+        {
+          "type": "improved",
+          "text": "Faction Orders: building upgrades now earn points based on how much they cost — bigger, pricier upgrades reward proportionally more. Check the “Units Spent” source in your points breakdown."
+        },
+        {
+          "type": "fixed",
+          "text": "The Laser Turret can now be upgraded all the way to Level 12 — it was incorrectly capped at 10."
+        },
+        {
+          "type": "fixed",
+          "text": "Ambassador codes now work: set or change the creator you support in Settings, and see who you’re supporting by name."
+        }
+      ]
+    },
+    {
+      "version": "1.36",
+      "date": "2026-06-27",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Ion Cannon strikes now show up in your newsfeed — tap the alert to jump straight to the attacker’s profile."
+        },
+        {
+          "type": "new",
+          "text": "Your profile now shows a Recommended Population for your garrison level, so you can tell at a glance if you’re under the target for max plunder."
+        },
+        {
+          "type": "improved",
+          "text": "Fleet Abilities got a full redesign — a cleaner look with a fleet summary bar (vault + level) and clearer cast / upgrade buttons."
+        },
+        {
+          "type": "improved",
+          "text": "Faction Games: wars now start the instant the War Room countdown hits zero, and calling a rally posts it to your team’s war chat."
+        },
+        {
+          "type": "fixed",
+          "text": "Faction Games signup now clearly shows Team War vs Individual War — team wars point you to the Team War schedule to enlist your squad."
+        },
+        {
+          "type": "fixed",
+          "text": "Contract Auto-Unload is much more reliable — it no longer skips bars, stalls between stages, or stops early while bars and regens remain."
+        },
+        {
+          "type": "fixed",
+          "text": "Auto-Unload’s HALT button now stops the run instantly (contracts and operatives), instead of finishing the current attack first."
+        },
+        {
+          "type": "fixed",
+          "text": "Repair Kits can be donated to your home-fleet members again."
+        },
+        {
+          "type": "fixed",
+          "text": "Android: incoming command transmissions now fit the screen and the Acknowledge button is always reachable."
+        },
+        {
+          "type": "fixed",
+          "text": "The last entry in the Search / battle list no longer hides behind the chat bar."
+        }
+      ]
+    },
+    {
+      "version": "1.35",
+      "date": "2026-06-24",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Academy Objectives: a new “Objectives” tab in the Academy with guided checklists across Growth, NPC, PvP, Faction Games, Daily Challenges, and Comms. Hit milestones as you play to claim Federal Crystals, units, and more — plus a bonus for finishing each track."
+        },
+        {
+          "type": "fixed",
+          "text": "Academy: the Shield training step no longer gets stuck mid-attack — once your shields are knocked down you can restore them and continue the lesson without restarting the track."
+        },
+        {
+          "type": "fixed",
+          "text": "Faction Games: war chat no longer carries over when switching accounts on the same device — each account now sees its own team’s war chat."
+        },
+        {
+          "type": "fixed",
+          "text": "The Hub comms ticker now shows War chat previews too, matching every other screen."
+        },
+        {
+          "type": "fixed",
+          "text": "Faction Games chat: the message box now sits flush on top of the keyboard instead of floating above it."
+        },
+        {
+          "type": "fixed",
+          "text": "Faction Games war chat no longer briefly drops incoming messages that just arrived."
+        },
+        {
+          "type": "improved",
+          "text": "Faction Games war chat now shows message timestamps, like Intergalactic and Fleet chat."
+        },
+        {
+          "type": "fixed",
+          "text": "Command transmissions now stay acknowledged once you tap Acknowledge — no more reappearing — and got a cleaner incoming-transmission look."
+        }
+      ]
+    },
+    {
+      "version": "1.34",
+      "date": "2026-06-19",
+      "title": "What's New",
+      "changes": [
+        {
+          "type": "new",
+          "text": "War Pass (July): a FREE seasonal pass in Faction Games — earn War Points from participation, wins, and MVP to climb 10 reward tiers, topped by an exclusive starship skin you can preview in 3D."
+        },
+        {
+          "type": "new",
+          "text": "Starship Bay: customize your flagship with hull finishes, backdrops, and rim/engine glow — and equip skins you’ve earned (like the War Pass skin) under “Your Skins.” It all shows on your profile."
+        },
+        {
+          "type": "new",
+          "text": "PvP Operative Contracts: hunt a specific enemy operative in a rival Coalition fleet for elite rewards."
+        },
+        {
+          "type": "new",
+          "text": "Operative Auto-Unload: engage a contract operative and let it siege the target through every phase (raid → hack → bomb) automatically, with optional crystal regens."
+        },
+        {
+          "type": "new",
+          "text": "Direct messages now send a push notification with a preview, so you never miss a transmission."
+        },
+        {
+          "type": "improved",
+          "text": "Faction Games: Scramble reworked into a one-time-use-per-war power that reflects up to 5 incoming attacks back at the attackers (a successful reflect no longer awards points)."
+        },
+        {
+          "type": "improved",
+          "text": "Faction Games: active abilities (like Fortify and Scramble) now show a green “ACTIVE” outline so you can tell at a glance what’s running — and Scramble clearly reads as used once it’s cast."
+        },
+        {
+          "type": "improved",
+          "text": "Faction Games: Raids reworked — the troops bar is gone. A raid is now a pure score + plunder strike worth +40 (the best points-per-energy), so it’s your go-to to out-score the enemy when you can’t land a knockout. Defenses are now simply Shield → Population."
+        },
+        {
+          "type": "improved",
+          "text": "Faction Games: the Repair ability was removed to rebalance war abilities."
+        },
+        {
+          "type": "fixed",
+          "text": "Architect’s Blueprint rewards from Faction Orders now pay out correctly — affected players have been credited."
+        },
+        {
+          "type": "fixed",
+          "text": "Battle Pass “Crystal Collector” now counts the Federal Crystals you earn from Daily Challenges."
+        },
+        {
+          "type": "fixed",
+          "text": "Operative and Sentinel ranks can once again open and start Contracts."
+        },
+        {
+          "type": "fixed",
+          "text": "Creating a fleet now updates your status instantly — and you can create a fleet without making it your Home Fleet."
+        },
+        {
+          "type": "fixed",
+          "text": "Operative Auto-Unload now uses raids, hacks, AND bombs during the boarding phase (it was only raiding), so it finishes the kill faster."
+        },
+        {
+          "type": "improved",
+          "text": "NPC sieges: every attack now spills onto the next defense (supplies → shields → hull), so you’re never stuck on one bar — use whatever troops you’ve got. Bombs also hit NPCs much harder now."
+        },
+        {
+          "type": "improved",
+          "text": "Daily Challenges: your raids, hacks, bombs, and XP now count when you hit NPC fleets too — not just other players."
+        },
+        {
+          "type": "improved",
+          "text": "Faction Orders: the leaderboard now ranks only your own faction’s commanders — each faction competes on its own board."
+        },
+        {
+          "type": "improved",
+          "text": "Declaring a new faction now warns you first: it moves your whole home fleet and resets your current Faction Order progress (rewards you’ve already claimed are kept)."
+        },
+        {
+          "type": "improved",
+          "text": "Your faction now always follows your home fleet — joining one adopts its faction, and leaving (or being removed) returns you to The Outlaws. Switching this way resets your current Faction Order progress (claimed rewards are kept)."
+        },
+        {
+          "type": "new",
+          "text": "Fleet leaders can set their own fleet as their Home Fleet anytime from Manage Fleet."
+        },
+        {
+          "type": "new",
+          "text": "Spectate Faction Games: not in the current war? Open Faction Games to watch it live — phase, countdown, and team scoreboard — while still browsing the Schedule, your Team, and the War Pass. Then sign up for the next one."
+        }
+      ]
+    }
+  ]
+}
